@@ -10,7 +10,8 @@
     "engines": {
         "node": ">= 14.0.0"
     },
-    "scripts": {
-        "saxon-xsl-compile": "node saxon-xsl-compile.js"
-    }
+    "bin": {
+        "saxon-xsl-compile": "saxon-xsl-compile.js"
+    },
+    "type": "module"
 }
