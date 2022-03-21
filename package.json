@@ -1,0 +1,16 @@
+{
+    "name": "precommit-saxon-xsl-compile",
+    "description": "Precommit hook for compiling XSLT stylesheets with saxon-js",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "xslt3": "^2.3.0"
+    },
+    "main": "saxon-xsl-compile.js",
+    "engines": {
+        "node": ">= 14.0.0"
+    },
+    "scripts": {
+        "saxon-xsl-compile": "node saxon-xsl-compile.js"
+    }
+}
