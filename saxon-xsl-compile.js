@@ -55,7 +55,6 @@ const compileStylesheet = async (stylesheet) => {
                 'git',
                 [
                     'add',
-                    '-N',
                     sefName
                 ]
             );
